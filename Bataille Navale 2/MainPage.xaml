@@ -9,14 +9,12 @@
     Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
 
     <Grid>
-        <Frame x:Name="MainFrame"/>
-        <NavigationView x:Name="NavView">
-            <NavigationView.MenuItems>
-                <NavigationViewItem Icon="XboxOneConsole" Content="Jouer" x:Name="PlayButton"/>
-                <NavigationViewItem Icon="Remote" Content="Joueur 01" x:Name="J1"/>
-                <NavigationViewItem Icon="Remote" Content="Joueur 02" x:Name="J2"/>
-                <NavigationViewItem Icon="Contact" Content="Crédits" x:Name="Credits"/>
-            </NavigationView.MenuItems>
-        </NavigationView>
+        <TextBlock x:Name="pageTitle" Text="Accueil" VerticalAlignment="Top" HorizontalAlignment="Center" FontWeight="Bold" FontSize="72" Margin="0,404,0,0" />
+        <Button Content="JOUER"
+                 Click="Button_Click" FontSize="20" 
+                FontWeight="Bold" 
+                Margin="0,661,0,0" 
+                VerticalAlignment="Top" 
+                HorizontalAlignment="Center"/>
     </Grid>
 </Page>

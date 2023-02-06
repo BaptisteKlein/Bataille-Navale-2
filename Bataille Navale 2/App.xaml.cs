@@ -96,5 +96,6 @@ namespace Bataille_Navale_2
             //TODO: enregistrez l'état de l'application et arrêtez toute activité en arrière-plan
             deferral.Complete();
         }
+
     }
 }
