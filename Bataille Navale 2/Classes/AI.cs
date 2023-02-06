@@ -48,4 +48,4 @@ namespace Bataille_Navale.Assets
             board.Shoot(row, col);
         }
     }
-
+}
